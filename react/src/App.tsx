@@ -1,7 +1,15 @@
 import "./App.css";
 
+const numbers = [1, 2, 3];
+
 function App() {
-  return <h1>Hello, friend!</h1>;
+  return (
+    <>
+      {numbers.map((x) => (
+        <div key={x}>{x}</div>
+      ))}
+    </>
+  );
 }
 
 export default App;
