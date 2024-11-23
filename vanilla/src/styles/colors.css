@@ -1,0 +1,15 @@
+h1 {
+  color: cornflowerblue;
+  color: blue;
+  color: darkblue;
+  color: midnightblue;
+  color: mediumblue;
+
+  color: #6495ed;
+
+  color: rgb(100, 149, 237);
+
+  color: hsl(30, 79%, 66%);
+  color: hsl(30, 79%, 56%);
+  /*  hue saturation lightness */
+}
